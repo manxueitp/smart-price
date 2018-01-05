@@ -1,0 +1,222 @@
+/**************/
+/* Custom CSS */
+/**************/
+
+body {
+	background: #fff;
+	color: #fff;
+	font-family: 'Muli', sans-serif;
+  width: 500px;
+}
+
+.container{
+  background: #feb7c6;
+  width: 500px;
+  padding-left:40px;
+  padding-right:40px;
+}
+
+input{
+  width: 100%;
+  background-color: #fd9db0;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  font-size: 20px;
+  color: #fff;	
+  padding:10px;
+  margin-top:10px; 
+  margin-left: -5px;
+}
+
+.centered{
+	text-align: center;
+}
+
+#card-holder{
+	margin-top: 10px;
+}
+
+.card-container {
+  width: 100%;
+	margin-bottom: 30px;
+}
+
+.card {
+    width: 100%;
+    height: 200px;
+		padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+    background: #fff url(arrow.png) top right no-repeat;
+    -webkit-box-shadow: 0px 0px 20px 1px rgba(251,133,157,1);
+    -moz-box-shadow: 0px 0px 20px 1px rgba(251,133,157,1);
+    box-shadow: 0px 0px 20px 1px rgba(251,133,157,1);
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: auto;
+    zoom: 1;
+}
+
+.wordboard{
+  width: 220px;
+  float: left;
+  height: 100%
+}
+
+.blue{
+  color: #68defe;
+  font-family: 500;
+}
+.wordboard .price{
+  display: block; 
+  width: 100%;
+  overflow: auto;
+  zoom: 1;
+
+}
+.wordboard h1{
+	color:  #68defe;
+  font-size: 30px;
+  margin-top:10px;
+  margin-bottom:10px;
+  float: left;
+  display: block; 
+}
+
+
+
+.wordboard h2 {
+  color: #979ea9;
+  margin: 0;
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #505151;
+  width:80%;
+}
+.wordboard .originalprice{
+    color: #fff;
+    text-decoration: line-through;
+    font-size: 26px;
+    margin-top: 12px;
+    margin-bottom: 13px;
+    float: left;
+    display: block;
+    margin-left: 6px;
+}
+.wordboard h3 {
+    color: #51D7FB;
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 4px;
+    line-height: 14px;
+}
+.wordboard span{
+  height: 26px;
+  display: block;
+  float: left;
+  padding: 0 10px;
+  border-radius: 10%;
+  text-align: center;
+  line-height: 26px;
+  font-size: 13px;
+  color: #505151;
+  background: #cbf5fe;
+  margin: 5px 4px;
+}
+.trans{
+  height: 26px;
+  display: block;
+  float: left;
+  text-align: center;
+  line-height: 26px;
+  font-size: 13px;
+  color: #998;
+  font-weight: 700;
+  margin-top:10px;
+}
+
+.card img {
+  width: 80%;
+  float: left;
+  max-width: 120px;
+  max-height: 120px;	
+}
+
+.button{
+  width: 22px;
+  height: 200px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  /* float: left; */
+  background: #fdf577 url('../img/arrow2.png') ;
+  color: #fff;
+  text-align: center;
+  line-height: 200px;
+  overflow: auto;
+  zoom: 1;
+}
+.button a{
+  display: block;
+  width: 22px;
+  height: 200px;
+  
+  cursor: pointer;
+
+}
+.button a:hover{
+  background: #8DC9FE;
+  transition: background-color 0.5s ease;
+  
+}
+
+.sale{
+    width: 74px;
+    height: 74px;
+    background: url('../img/sale.png');
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    display:none;
+}
+ 
+ .arrow{
+  font-size: 14px;
+  color: #505151;
+  z-index: 1000;
+ }
+
+/***************************/
+/* Default Form Input Code */
+/***************************/
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

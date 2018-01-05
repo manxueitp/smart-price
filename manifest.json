@@ -1,0 +1,14 @@
+{
+  "name": "smart-price",
+  "manifest_version": 2,
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "shopping.png",
+    "default_title": "smart-price",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab",
+    "geolocation"
+  ]
+}
