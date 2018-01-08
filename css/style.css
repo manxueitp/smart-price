@@ -1,7 +1,6 @@
 /**************/
 /* Custom CSS */
 /**************/
-
 body {
 	background: #fff;
 	color: #fff;
@@ -10,24 +9,28 @@ body {
 }
 
 .container{
-  background: #feb7c6;
+	background: #ffd1db;
   width: 500px;
-  padding-left:40px;
-  padding-right:40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 input{
   width: 100%;
   background-color: #fd9db0;
-  border: none;
-  border-bottom: 1px solid rgba(255,255,255,0.2);
+  border-radius:4px;
+	border: 0px;
   font-size: 20px;
-  color: #fff;	
+  color: #fff;
   padding:10px;
-  margin-top:10px; 
-  margin-left: -5px;
+  margin-top:10px;
 }
 
+.space-10{
+	.margin-top: 10px;
+}
 .centered{
 	text-align: center;
 }
@@ -58,6 +61,7 @@ input{
     box-sizing: border-box;
     position: relative;
     margin-bottom: 20px;
+		margin-top: 20px;
     overflow: auto;
     zoom: 1;
 }
@@ -73,7 +77,7 @@ input{
   font-family: 500;
 }
 .wordboard .price{
-  display: block; 
+  display: block;
   width: 100%;
   overflow: auto;
   zoom: 1;
@@ -85,10 +89,8 @@ input{
   margin-top:10px;
   margin-bottom:10px;
   float: left;
-  display: block; 
+  display: block;
 }
-
-
 
 .wordboard h2 {
   color: #979ea9;
@@ -147,7 +149,7 @@ input{
   width: 80%;
   float: left;
   max-width: 120px;
-  max-height: 120px;	
+  max-height: 120px;
 }
 
 .button{
@@ -168,14 +170,14 @@ input{
   display: block;
   width: 22px;
   height: 200px;
-  
+
   cursor: pointer;
 
 }
 .button a:hover{
   background: #8DC9FE;
   transition: background-color 0.5s ease;
-  
+
 }
 
 .sale{
@@ -187,13 +189,16 @@ input{
     top: -5px;
     display:none;
 }
- 
  .arrow{
   font-size: 14px;
   color: #505151;
   z-index: 1000;
  }
 
+ .row {
+     margin-right: 0px;
+     margin-left: 0px;
+ }
 /***************************/
 /* Default Form Input Code */
 /***************************/
@@ -203,15 +208,15 @@ input{
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #fff;  
+   color: #fff;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #fff;  
+   color: #fff;
 }
 
-:-ms-input-placeholder {  
-   color: #fff;  
+:-ms-input-placeholder {
+   color: #fff;
 }
 
 input:focus,
