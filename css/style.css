@@ -9,7 +9,7 @@ body {
 }
 
 .container{
-	background: #ffd1db;
+	background: #ffe4e9;
   width: 500px;
   padding-left: 20px;
   padding-right: 20px;
@@ -19,7 +19,7 @@ body {
 
 input{
   width: 100%;
-  background-color: #fd9db0;
+  background-color: #ffd4dd;
   border-radius:4px;
 	border: 0px;
   font-size: 20px;
@@ -51,12 +51,12 @@ input{
     padding-bottom: 30px;
     padding-left: 60px;
     background: #fff url(arrow.png) top right no-repeat;
-    -webkit-box-shadow: 0px 0px 20px 1px rgba(251,133,157,1);
-    -moz-box-shadow: 0px 0px 20px 1px rgba(251,133,157,1);
-    box-shadow: 0px 0px 20px 1px rgba(251,133,157,1);
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 20px 3px rgb(255, 189, 202);;
+    -moz-box-shadow: 0px 0px 20px 3px rgb(255, 189, 202);;
+    box-shadow: 0px 0px 20px 3px rgb(255, 189, 202);;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     position: relative;
@@ -146,10 +146,9 @@ input{
 }
 
 .card img {
-  width: 80%;
   float: left;
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 140px;
+  max-height: 140px;
 }
 
 .button{
