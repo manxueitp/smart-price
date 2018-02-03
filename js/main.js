@@ -20,7 +20,7 @@ function getInput(event){
 function getProduct(val){
    var apiKey= 'uid25-33208755-48';
    	$.ajax({
-	    url: 'http://api.shopstyle.com/api/v2/products?pid='+apiKey+'&sort=PriceLoHi&format=json&fts='+val+'&offset=0&limit=30',
+	    url: 'http://api.shopstyle.com/api/v2/products?pid='+apiKey+'&sort=PriceLoHi&format=json&fts='+val+'&offset=0&limit=60',
 	    type: 'GET',
 	    failure: function(err){
 	      return alert ("Could not find that product");
@@ -56,6 +56,7 @@ function getProduct(val){
 }
 
 function addCard(allProducts){
+	$('#card-holder').empty();
   allProducts.forEach(function(e,i){
 	var htmlToAppend =
 	'<div class="card">'+
